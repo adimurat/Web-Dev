@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px 0px;
+    padding: 0px 0px 32px;
+}
+
+.phoneImg{
+    margin: 0px 32px 12px 0px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.form-input form .logo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.form-input form .input {
+    width: 258px;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid rgba(219 219 219);
+    margin: 3px;
+}
+
+
+.login-btn {
+    width: 268px;
+    padding: 10px;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 40px;
+    color: white;
+}
+
+#or {
+    margin: 20px 20px;
+}
+
+.line{
+    width: 101.48px;
+    background: rgb(219, 219, 219);
+    height: 1px;
+}
+
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-login {
+    font-weight: 700;
+    font-size: 14px;
+    color: #385185;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#forget{
+    color: #00376b;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(219 219 219);
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.sign-link{
+    color: #0095b6;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+.wrap{
+    margin: 0px 0px 52px;
+}
+
+.info{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.lang{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+span{
+    color: #737373
+}

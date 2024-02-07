@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #f0f2f5;
+}
+
+.container{
+    
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+.content{
+    display: flex;
+    max-width: 980px;
+    height: 536px;
+    margin: 0 176px;
+    padding: 20px 0;
+}
+
+
+.content__logo{
+    max-width: 580px;
+    height: 298.08px;
+    padding: 0 32px 0 0;
+}
+
+.logo__img{
+    padding: 112px 0 16px;
+}
+img{
+    max-width: 320.94px;
+    height: 106px;
+    margin: -28px;
+}
+
+.info{
+    max-width: 500px;
+    height: 116px
+}
+
+h2{
+    font-size: 28px;
+    padding: 0 0 20px;
+}
+
+.login_wrapper{
+    max-width: 396px;
+    height: 456px;
+}
+
+.login_box{
+    background: white;
+    width: 396px;
+    height: 349.84px;
+    margin: 40px 0 0;
+    padding: 10px 0 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
+}
+
+
+.inputs{
+    width: 396px;
+    height: 132.08px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name_input{
+    padding: 6px 0;
+}
+
+.password_input{
+    padding: 6px 0;
+}
+input{
+    width: 364px;
+    height: 52px;
+    padding: 14px 16px;
+    border: 1px solid #f0f2f5;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+
+.login_btn{
+    padding: 6px 0 0;
+    width: 396px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    width: 332px;
+    height: 48px;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+}
+
+.login_forget{
+    width: 396px;
+    height: 18.76px;
+    margin: 16px 0 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    width: 108.09px;
+    height: 15.5px;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.line{
+    border-bottom: 1px solid gray;
+    align-items: center;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    
+}
+
+
+
+.create_account{
+    width: 396px;
+    height: 54px;
+    padding: 6px 0 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn2{
+    width: 231.41px;
+    height: 48px;
+    background-color: #42b72a;
+    padding: 0 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+
+
+footer{
+    height: 135px;
+}
+
+.lang{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-info{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
