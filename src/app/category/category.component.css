@@ -1,0 +1,36 @@
+
+.category{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+
+
+.img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+.link{
+    border: 1px solid #818181;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin-top: 15px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 70px;
+}
