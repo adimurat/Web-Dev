@@ -1,17 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CategoryComponent } from './category/category.component';
-import { AppProductListComponent } from './app-product-list/app-product-list.component';
-import { ToysComponent } from './toys/toys.component';
-import { HomeProductsComponent } from './home-products/home-products.component';
-import { SportProductsComponent } from './sport-products/sport-products.component';
+import { AlbumsComponent } from './albums/albums.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path: '', component: CategoryComponent},
-  {path: 'electric', component: AppProductListComponent},
-  {path: 'toys', component: ToysComponent},
-  {path: 'home', component: HomeProductsComponent},
-  {path: 'sport', component: SportProductsComponent}
+  {path: 'albums', component: AlbumsComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'home', component: HomeComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,14 @@
+<div class="main">
+  <h3>Albums</h3>
+
+  <div *ngFor="let photo of albumPhotos; let i = index">
+    <div>
+      <button *ngIf="i === 0" [routerLink]="['/albums', photo.albumId]">Return Back</button>
+      <p>Photo number: {{ photo.id }}</p>
+    </div>
+    <h3>Thumbnail</h3>
+    <img class="thumbnail" src = "{{photo.thumbnailUrl}}">
+    <h3>Actual Picture</h3>
+    <img class="picture" src="{{photo.url}}">
+  </div>
+</div>

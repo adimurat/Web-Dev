@@ -3,26 +3,36 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppTopBarComponent } from './app-top-bar/app-top-bar.component';
-import { AppProductListComponent } from './app-product-list/app-product-list.component';
-import { CategoryComponent } from './category/category.component';
-import { ToysComponent } from './toys/toys.component';
-import { HomeProductsComponent } from './home-products/home-products.component';
-import { SportProductsComponent } from './sport-products/sport-products.component';
-
+import { AboutComponent } from './about/about.component';
+import { AlbumDetailsComponent } from './album-details/album-details.component';
+import { AlbumsComponent } from './albums/albums.component';
+import { HomeComponent } from './home/home.component';
+import { AlbumPhotoComponent } from './album-photo/album-photo.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    AppTopBarComponent,
-    AppProductListComponent,
-    CategoryComponent,
-    ToysComponent,
-    HomeProductsComponent,
-    SportProductsComponent
+    AboutComponent,
+    AlbumDetailsComponent,
+    AlbumsComponent,
+    HomeComponent,
+    AlbumPhotoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    RouterModule.forRoot([
+      {path: '', redirectTo: 'home', pathMatch: "full"},
+      {path: 'home', component: HomeComponent},
+      {path: 'about', component: AboutComponent},
+      {path: 'albums/:id', component: AlbumDetailsComponent},
+      {path: 'album-detail', component: AlbumDetailsComponent},
+      {path: 'albums/:id/photos', component: AlbumPhotoComponent},
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
