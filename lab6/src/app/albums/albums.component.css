@@ -1,0 +1,44 @@
+.albums-container {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .albums {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding:1rem;
+    border-radius: 20px;
+  }
+  
+  .albumid {
+    margin-right: 7rem;
+  }
+  
+  .deletebtn {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+  }
+
+  a:hover{
+    color: red;
+  }
+
+  .titles{
+    display: flex;
+    gap: 10px;
+  }

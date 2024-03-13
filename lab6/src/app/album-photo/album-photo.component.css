@@ -1,0 +1,27 @@
+.main{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.picture{
+    width: 600px;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.thumbnail{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
