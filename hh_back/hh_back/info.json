@@ -1,0 +1,49 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "Company A",
+        "description": "Description of Company A",
+        "city": "City A",
+        "address": "Address A"
+      },
+      {
+        "id": 2,
+        "name": "Company B",
+        "description": "Description of Company B",
+        "city": "City B",
+        "address": "Address B"
+      }
+    ],
+    "vacancies": [
+      {
+        "id": 1,
+        "name": "Job 1",
+        "description": "Description of Job 1",
+        "salary": 50000.0,
+        "company_id": 1
+      },
+      {
+        "id": 2,
+        "name": "Job 2",
+        "description": "Description of Job 2",
+        "salary": 60000.0,
+        "company_id": 1
+      },
+      {
+        "id": 3,
+        "name": "Job 3",
+        "description": "Description of Job 3",
+        "salary": 55000.0,
+        "company_id": 2
+      },
+      {
+        "id": 4,
+        "name": "Job 4",
+        "description": "Description of Job 4",
+        "salary": 65000.0,
+        "company_id": 2
+      }
+    ]
+  }
+  
